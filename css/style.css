@@ -1,0 +1,120 @@
+html,
+body {
+  height: 100%;
+  background-color: #4abcdd;
+}
+strong {
+	color: #F6464A;
+}
+.cover {
+	background-image: url("../img/avatar-tom.png");
+	background-repeat: no-repeat;
+	color: #fff;
+	margin-top: 2%;
+	margin-left: 4%;
+	background-size: 36.5%;
+	z-index: -2;
+	left: 0px;   
+	height: 97%; 
+	bottom: auto; 
+	right: auto;
+}
+.cover .container .row h2{
+	padding-top: 175px;
+	font-size: 67px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+.cover .container .row h1{
+	font-size: 175px;
+	font-weight: bold;
+	color: #F6464A;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+.cover .container .row h3{
+	font-size: 76px;
+    line-height: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.game {
+	padding-top: 100px;
+	background-color: #fff;
+	padding-bottom: 60px;
+}
+
+.game .container .row h1{
+	font-size: 76px;
+    line-height: 45px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    color: #333333;
+}
+
+.game .container .row p{
+	font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 15px;
+    color: #333333;
+}
+
+.game .container .row h3{
+	color: #333333;
+    text-transform: uppercase;
+}
+.game hr{
+	padding-bottom: 55px;
+}
+.game .container .row .col-md-12 .score{
+	padding-top: 20px;
+	font-size: 110px;
+    line-height: 80px;
+    font-weight: bold;
+	color: #F6464A;
+    text-transform: uppercase;
+}
+
+.btn-player {
+	background-color: #F6464A;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 5px;
+}
+
+.text-justify{
+	text-align: justify;
+}
+
+.custom-layout {
+	 background-color: #F6464A;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+    color: #000;
+}
+
+.footer {
+	background-color: #333333;
+	color: #fff;
+	padding-top: 35px;
+	padding-bottom: 15px;
+}
+
+.footer p {
+	font-size: 20px;
+	text-transform: uppercase;
+
+}

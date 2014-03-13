@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Vacuumlabs || tic tac toe">
+    <meta name="author" content="Tomáš Patoprstý">
+    <title>Vacuumlabs - Tic Tac Toe</title>
+    <!-- Here are the CSS files like bootstrap and my custom style.css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+ 
+    <!-- Here is my JS file working as an engine for the whole game -->
+    <script type="text/javascript" src="js/tictac.js"></script>
+</head>
+    <body>
+        <div class="cover">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-3 text-right">
+                      <h2>3x3 Tic Tac Toes are</h2>
+                      <br>
+                      <h1><strong>boring</strong>!</h1>
+                      <br>
+                      <h3>Try 10x10 instead</h3>
+                    </div>
+                    <div class="col-md-8 col-md-offset-3 text-center">
+                      <br>
+                      <br>
+                       <br>
+                      <br>
+                      <h1><strong>↓↓</strong></h1>
+                    </div>
+                  </div>
+                </div>
+             </div>    
+
+        <div class="game">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 text-center">
+                        <h1>~ LET'S PLAY ~</h1>
+                        <hr>
+                    </div> 
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-1 text-center">
+                        <h3>~ Description ~</h3>
+                        <br>
+                        <p class="text-justify">So, this game is for 2 players, each click changes the player's turn. The board has 10x10 cells, so each player can make 50 moves during the one game. The main strategy is to get 5 symbols in a row, or in a column, or in the diagonal lines. The game also ends with draw in case, if all of the cells have symbols. Let's play tic tac toe!</p>
+                        <br>
+                        <h3>~ Score ~</h3>
+                        <div class="col-md-5 text-center">
+                            <h4>Player 1</h4>
+                        </div>
+                        <div class="col-md-5 col-md-offset-2 text-center">
+                            <h4>Player 2</h4>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <div id="score" class="score">0 : 0</div>
+                        </div>
+                    </div> 
+                    <div class="text-center">
+                        <!-- This is your loving canvas tic tac toe -->
+                        <canvas id="tictac" class="custom-layout"></canvas> 
+                       <!--  <div id="turnText" class="btn-inverse">Player 1's turn</div>  -->
+                    </div> 
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-4 text-right">
+                        <div id="turnText" class="button btn-player">Player 1's turn</div> 
+                    </div>
+                </div>
+             </div>   
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 text-center">
+                        <p>~ &#11; Made by webatom, 2014. ~</p>
+                    </div> 
+                </div>
+            </div>    
+        </div>
+    </body>
+</html>
